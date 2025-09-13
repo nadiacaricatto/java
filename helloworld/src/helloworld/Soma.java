@@ -18,8 +18,7 @@ public class Soma {
 		numero2 = leia.nextDouble();
 		
 		System.out.printf("%.2f + %.2f = %.2f", numero1, numero2, numero1 + numero2);
-		
-		
+				
 		
 		leia.close();
 	}
