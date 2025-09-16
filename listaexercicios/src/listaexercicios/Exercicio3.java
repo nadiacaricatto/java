@@ -6,7 +6,10 @@ public class Exercicio3 {
 
 	public static void main(String[] args) {
 		
-		/*Enunciado: */
+		/*Enunciado: Elabore um algoritmo em Java, que leia o Salário Bruto,
+		 * o Adicional Noturno, as Horas Extras e os Descontos de um Colaborador, 
+		 * em variáveis do tipo float, e exiba na tela o Salário Líquido.
+		 * Considere: Salário Bruto = 2000.00 - Adc Not = 500.00 - HE = 100.00 - Desc = 200.00 - SL = 2800.00*/
 		
 		Scanner leia = new Scanner(System.in);
 		
