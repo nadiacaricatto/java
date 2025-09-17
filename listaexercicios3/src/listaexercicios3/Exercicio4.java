@@ -1,0 +1,73 @@
+package listaexercicios3;
+
+import java.util.Scanner;
+
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+
+		/*
+		 * Uma empresa desenvolveu uma pesquisa interna para conhecer os colaboradores da área de Desenvolvimento
+		 * e precisam de um sistema para analisar os dados. Escreva um algoritmo em Java, 
+		 * que leia via teclado as seguintes informações de cada colaborador:
+
+Idade (Número inteiro)
+Identidade de Gênero (Número Inteiro): 
+1 – Mulher Cis
+2 – Homem Cis
+3 – Não Binário
+4 – Mulher Trans
+5 – Homem Trans
+6 – Outros
+Pessoa Desenvolvedora (Número Inteiro):
+1 – Backend
+2 – Frontend
+3 – Mobile
+4 – FullStack
+Após digitar a categoria, o sistema deverá perguntar ao usuário se ele deseja continuar
+a leitura dos dados de um novo colaborador ou não (S/N). Caso seja pressionada a tecla N, mostre na tela:
+
+O número de pessoas desenvolvedoras Backend
+O número de Mulheres Cis e Trans desenvolvedoras Frontend
+O número de Homens Cis e Trans desenvolvedores Mobile maiores de 40 anos
+O número de Não Binários desenvolvedores FullStack menores de 30 anos
+O número total de pessoas que responderam à pesquisa
+A média de idade das pessoas que responderam à pesquisa
+
+Na construção do Algoritmo, utilize os seguintes conteúdos:
+Entrada e Saída de dados
+Operadores
+Laços Condicionais
+Laço de Repetição WHILE
+
+		 */
+
+		Scanner leia = new Scanner(System.in);
+
+		System.out.println("Somando Números Aleatórios");
+		
+		int numero;
+		int soma = 0;
+		
+		
+		do {
+			System.out.println("Digite um número: ");
+			numero = leia.nextInt();
+			
+			if (numero > 0) {
+				soma += numero;
+			}
+		
+		}while ( numero != 0); 		
+		
+		System.out.printf("A soma dos números positivos é igual a %d.", soma);
+	
+	
+		leia.close();	
+	}
+		
+		
+
+	
+	}
+

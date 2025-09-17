@@ -9,10 +9,14 @@ public class Texto {
 		
 		String texto; 
 		
+		System.out.println("Digite um número: ");
+		var numero = leia.nextInt();
+				
 		System.out.println("Digite uma String: ");
+		leia.skip("\\R");
 		texto = leia.nextLine();
 		
-		System.out.println("A String digitada foi  " + texto);
+		System.out.println("A String digitada foi " + texto);
 
 		leia.close();
 		

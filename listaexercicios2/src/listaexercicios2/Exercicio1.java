@@ -34,8 +34,7 @@ public class Exercicio1 {
 		System.out.printf("O resultado da soma de %d e %d é igual a %d", v1, v2, v3);
 		
 	    }		
-		
-		
+				
 		leia.close();
 		
 	}
