@@ -42,29 +42,7 @@ Laço de Repetição WHILE
 
 		 */
 
-		Scanner leia = new Scanner(System.in);
-
-		System.out.println("Somando Números Aleatórios");
-		
-		int numero;
-		int soma = 0;
-		
-		
-		do {
-			System.out.println("Digite um número: ");
-			numero = leia.nextInt();
-			
-			if (numero > 0) {
-				soma += numero;
-			}
-		
-		}while ( numero != 0); 		
-		
-		System.out.printf("A soma dos números positivos é igual a %d.", soma);
 	
-	
-		leia.close();	
-	}
 		
 		
 
