@@ -26,7 +26,8 @@ public class Exercicio2 {
 
 		int menor21 = 0, maior50 = 0;
 
-		System.out.print("Informe o número total de pessoas da sua família que visitaram nosso estabelecimento pela última vez: ");
+		System.out.print(
+				"Informe o número total de pessoas da sua família que visitaram nosso estabelecimento pela última vez: ");
 		pessoas = leia.nextInt();
 
 		int i = 1;
@@ -43,8 +44,7 @@ public class Exercicio2 {
 
 			if (idade < 21) {
 				menor21++;
-			} 
-			else if (idade > 50) {
+			} else if (idade > 50) {
 				maior50++;
 			}
 
@@ -52,15 +52,14 @@ public class Exercicio2 {
 
 		}
 
-		System.out.println("Agradecemos sua participação!\n"
-				+ "Sua pesquisa foi encerrada com sucesso "
+		System.out.println("Agradecemos sua participação!\n" + "Sua pesquisa foi encerrada com sucesso "
 				+ "e você ganhou um cupom!\n" + "Confira o resultado abaixo:\n");
 		System.out.println("Total de Clientes menores de 21 anos: " + menor21);
 		System.out.println("Total de Clientes maiores de 50 anos: " + maior50);
 
-		
-		// A partir daqui eu fiz com ajuda do ChatGPT porque eu queria explorar um pouco mais e "brincar" com o contexto do código. 
-		
+		// A partir daqui eu fiz com ajuda do ChatGPT porque eu queria explorar um pouco
+		// mais e "brincar" com o contexto do código.
+
 		String caracteres = "ABCDEFGHIJKLMNOPQRSTUVXWYZ0123456789";
 
 		Random rand = new Random();
@@ -75,7 +74,9 @@ public class Exercicio2 {
 
 		}
 
-		System.out.printf("\nAqui está seu cupom: %s.\n Informe o código a um de nossos atendentes na sua próxima visita!", cupom.toString());
+		System.out.printf(
+				"\nAqui está seu cupom: %s\n Informe o código a um de nossos atendentes na sua próxima visita!",
+				cupom.toString());
 
 		leia.close();
 	}
